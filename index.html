@@ -9,14 +9,16 @@
 </head>
 <body class="shower list">
 
+
 	<header class="caption">
 		<h1>Не QWERTY единой</h1>
 		<p>Volodya Martynson</p>
 	</header>
 
+<!-- ЗАГЛАВИЕ ================================================== -->
 	<section class="slide" id="cover">
 		<h2>Не QWERTY единой</h2>
-		<p>Подготовлено <a href="http://vk.com/martyns0n">Володей Мартинсоном</a></p>
+		<p>Подготовил <a href="http://vk.com/martyns0n">Володя Мартинсон</a></p>
 		<p>Доклад о самом популярном фреймворке в IT, на котором, кажется, пишут все — о клавиатурной раскладке.</p>
 		<figure>
 			<img class="cover" src="http://download.4-designer.com/files/20130115/Keyboard-key-icon-png-45270.jpg" alt="Keyboard">
@@ -27,72 +29,95 @@
 		<style>
 			#cover h2 {
 				margin:30px 0 0;
-				/* color:#FFF; */
+				color:#FFF;
 				text-align:center;
 				font-size:70px;
-				background-color: rgba(255, 255, 255, 0.5);
+				background-color: rgba(0, 0, 0, 0.5);
 				}
 			#cover p {
 				margin:10px 0 0;
 				text-align:center;
-				/* color:#FFF; */
+				color:#FFF;
 				font-style:italic;
 				font-size:20px;
-				background-color: rgba(255, 255, 255, 0.5);
+				background-color: rgba(0, 0, 0, 0.5);
 				}
 				#cover p a {
-					/* color:#FFF; */
-					background-color: rgba(255, 255, 255, 0.5);
+					color: rgb(255, 255, 255);
 					}
 		</style>
 	</section>
 
-	<section class="slide">
-		<h2>План</h2>
-		<ol>
-			<li>Вступление</li>
-			<li>Проблемы печати при двух основных языках</li>
-			<li>Почему QWERTY/ЙЦУКЕН устарела и её нужно менять?</li>
-			<li>Как определить, что раскладка хуже или лучше?</li>
-			<li>Какие есть альтернативы?</li>
-			<li>О мое раскладке</li>
-		</ol>
-	</section>
-
+<!-- ВВЕДЕНИЕ ================================================================== -->
 	<section class="slide">
 		<h2>Вступление</h2>
 		<ul>
-			<li>Так как митап про бекенд то шуток пор jquery не будет</li>
-			<li></li>
+			<li>Так как митап про бекенд, то шуток пор jquery не будет</li>
+			<li>Я озадачился вопросом клавиатурных раскладок пол года назад, с тех пор овладел слепым вводом</li>
+			<li>Доклад может не понравится тем, кто уверенно овладел слепым вводом при всех затрудняюших это факторах (похлопаем)</li>
+		</ul>
+	</section>
+
+<!-- QWERTY/ЙЦУКЕН ================================================================== -->
+	<section class="slide">
+		<h2>QWERTY/ЙЦУКЕН</h2>
+		<ul>
+			<li>История раскладки</li>
 			<li></li>
 		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>Проблемы печати при двух основных языках.</h2>
-		<ul>
-			<li>Смена языка</li>
-			<li>Разные клавиши для пунктуации. Шутка пор ?, :, ", мнемоника Б это ',' а Ю это '.'. Машинопись частично решает эту проблему для русского языка</li>
-			<li>Плохая ассоциативная связь букв. Шутка про клавишу c</li>
-			<li>Нужно дважды учиться слепой печати</li>
-			<li>Потребонсть в дополнительном ПО вроде Punto Switcher для упрошения печати</li>
-		</ul>
-	</section>
+		<h3>История раскладки</h3>
+		<p>
+			Американский инженер Шолес с коллегами занимался созданием пишущих машин с конца 1860-х.
 
-	<section class="slide">
-		<h2>Почему QWERTY/ЙЦУКЕН устарела и её нужно менять?</h2>
+			Считается, что рычаги пишушие мишинки залипали от быстрой печати, поэтому Шолес перемешал все таким образом, чтобы самые часто повторяемые буквы находились как можно дальше друг от друга. Точная история происхождения QWERTY сегодня никому не известна, а сам Шолес никаких записей не оставил.
+
+			Раскладка QWERTY была создана для ускорения набора, который в те времена был двухпальцевым. «Слепой» десяти­пальцевый метод печати появился только в конце 1890-х. 
+
+			Проблемы раскладки ЙЦУКЕН произошли из того, что ее создавали на основе клавиатуры спроектированной для английского языка. Отсюда нехватка клавиш под буквы и символы, которые пришлось умещать в верхний регистр (shift + key). Так запятая стала второстепенным знаком, хотя она употребляется чаще точки.
+		</p>
+		<p>
+			Распространён миф, что QWERTY — попытка замедлить печать настолько, насколько это можно. Наоборот, это попытка ускорить печать при тогдашних технических ограничениях — слепая печать ещё не изобретена, рычаги задевают друг за друга, а печатающий механизм находится снизу и напечатанный текст можно увидеть, только провернув барабан.
+		</p>
+		<p>
+				Разработана в конце 19века (почти как jquery). В настоящее время раскладка Шоулза критикуется как анахронизм, так как проблемы, которая привела к появлению QWERTY, больше не существует.
+			</p>
 		<ul>
-			<li>Высокий коэффициент efforts по показателям оптимизатора carpalx</li>
-			<li>Разработана в конце 19века (почти как jquery).Не актуальна, идейно устаревшая — история раскладки. Клавиатура не печатная машинка. В настоящее время раскладка Шоулза критикуется как анахронизм, так как проблемы, которая привела к появлению QWERTY, больше не существует.</li>
-			<li>Наличие уже нескольких последуюших поколений раскладок</li>
-			<li>Распространён миф, что QWERTY — попытка замедлить печать настолько, насколько это можно. Наоборот, это попытка ускорить печать при тогдашних технических ограничениях — слепая печать ещё не изобретена, рычаги задевают друг за друга, а печатающий механизм находится снизу и напечатанный текст можно увидеть, только провернув барабан.</li>
+			<li>Особенностью раскладки стало расположение всех гласных в верхнем ряду (кроме буквы A, но у французов, например, это исправлено — там AZERTY).</li>
+			<li>Шолес в 1873 году продал патент компании «Ремингтон» и раскладка QWERTY стала стандартом де-факто.</li>
+			<li>Раскладку русских букв для пишущих машинок придумали в Америке в конце XIX века.</li>
+			<li>В верхнем регистре запятой нет ни в одной раскладке, кроме русской</li>
 			<li></li>
 		</ul>
+		<b>Вывод: Хуже QWERTY только ЙЦУКЕН</b>
+		<a href="https://www.artlebedev.ru/kovodstvo/sections/105/">В Ководстве про QWERTY</a>
+		<a href="https://computer.howstuffworks.com/question458.htm">Про QWERTY и DVORAK</a>
 	</section>
 
+
+<!-- ПРОБЛЕМЫ ПЕЧАТИ ============ -->
+	<section class="slide">
+		<h2>Проблемы печати при двух основных языках.</h2>		
+	</section>
+
+	<section class="slide">Расположение часто используемых символов в верхнем регистре (ЙЦУКЕН)</section>
+	<section class="slide">
+			<h2>Разные клавиши для пунктуации у RU/EN.</h2>
+			<p>Шутка пор ?, :, ", мнемоника Б это ',' а Ю это '.'. Машинопись частично решает эту проблему для русского языка (вместе с инверсией регистра на 4ом ряду)</p>
+	</section>
+	<section class="slide">Плохая ассоциативная связь букв у RU/EN. Шутка про клавишу c</section>
+	<section class="slide">Потребонсть в дополнительном ПО вроде Punto Switcher для упрошения печати</section>
+	<section class="slide">
+		<b>Вывод: нужно дважды учится слепому вводу</b>
+	</section>
+
+<!-- КАК ОПРЕДЕЛИТЬ ============================================-->
 	<section class="slide">
 		<h2>Как определить, что раскладка хуже или лучше?</h2>
 		<ul>
+			<li>Исследования</li>
 			<li>Подробно об carplax (http://mkweb.bcgsc.ca/carpalx/?xbul) и иные данные</li>
 			<li>Туннельный синдром кистей</li>
 			<li>Скорость освоения слепого ввода, скорость печатания и количество ошибок</li>
@@ -100,6 +125,39 @@
 			<li></li>
 		</ul>
 	</section>
+
+	<section class="list">
+		<h2>Исследования</h2>
+		<p>
+			Keyboard layout studies on the web always assume the common PC keyboard's physical key layout.
+
+			It's easy to write a computer program to compute the various frequencies and distances of the PC keyboard's keys. It is also easy to create a keyboard layout. But it is difficult to invent a different physical key layout that fixes some serious PC keyboard problems. Thus, all online layout studies simply focus on shuffling of the keys of the IBM PC Keyboard shape.</p>
+		<ul>
+			<li>
+				Patrick Gillespie wrote a web app at http://patorjk.com/keyboard-layout-analyzer/. The app is very simple and visual oriented. It takes a input text, and computes simple distances and finger frequency among 5 layouts: {QWERTY, Dvorak, Colemak, Capewell, Arensito}. Plus, it also generates a new layout that is optimal for the input text you used.
+
+				MAJOR FLAW: The site only compare simple measures such as distances, row positions, and finger ease. It does not take consideration of ease of bigram, hand alternation, etc. (For example, try to type “mommy you ok” in QWERTY.)
+			</li>
+			<li>
+				Michael Capewell's Keyboard Evolve
+				Michael Capewell, author of the Capewell layout, wrote a software Keyboard Evolve, that uses evolutionary algorithms to arrive at a optimal layout. http://www.michaelcapewell.com/programming/keyboardevolve.htm. Here's a quote:
+				
+				Unfortunately, I have yet to find the holy grail of keyboard layout evolution parameters! Things are complicated by there being a fundamental difference in how curved, ergonomic keyboards and plain, rectangular keyboards are used — the way I see things, they have different home “rows.” This program works best for ergonomic keyboards. I'm in the process of finding the right balance between the two…
+				
+				The moral here is:
+				
+				What keyboard you use has more impact to hand health than layout.
+			</li>
+			<li>
+				carPalx, at http://mkweb.bcgsc.ca/carpalx/ , is a site dedicated to studying efficiency of keyboard layouts. The site is created by Martin Krzywinski, a bioinformatics scientist.carPalx is the most thorough study on keyboard layout efficiency and quite technical.
+			</li>
+			<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Обзор исследований раскладок</a>
+			<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Раскладки и их карты частот + maltron layout</a>
+		</ul>
+		<p>What keyboard you use has more impact to hand health than layout.</p>
+	</section>
+
+
 
 	<section class="slide">
 			<h2>Какие есть альтернативы?</h2>
@@ -109,8 +167,7 @@
 				<li>Workman</li>
 				<li>Проблемы русских раскладок (их нет)</li>
 				<li>Типографская раскладка</li>
-				<li>Мефодика Лебедева "Раскладка QWERTY была создана как раз для ускорения набора, который в те времена был двухпальцевым. «Слепой» десяти­пальцевый метод печати появился только в конце 1890-х." https://www.artlebedev.ru/kovodstvo/sections/105/
-				https://www.tema.ru/rrr/soft/
+				<li>Мефодика Бирмана 
 				https://github.com/epsimatic/mefodica-birmana
 				</li>
 			</ul>
