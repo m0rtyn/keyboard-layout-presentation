@@ -99,6 +99,18 @@
 	</section>
 
 	<section class="slide">
+		Если вкратце то:
+		<ul>
+			<li class="next">
+				1874, Remington No. 1 and No. 2, the first commercially successful typewriter, which introduced QWERTY; 
+				1878, its successor, the Remington No. 2 , which introduced the shift key;
+			</li>
+			<li class="next">1961, the IBM Selectric , a very influential electric typewriter, which was imitated by computer keyboards;</li>
+			<li class="next">1985, the IBM the Model M, which is the basis for many modern keyboard layouts.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
 		<b>Вывод: Хуже QWERTY только ЙЦУКЕН</b>
 
 		<a href="https://www.wikiwand.com/en/QWERTY">EN Wikipedia</a>
@@ -113,22 +125,29 @@
 	</section>
 
 	<section class="slide">
-		Расположение часто используемых символов в верхнем регистре (ЙЦУКЕН)
+		Долгий и затруднительный период обучения слепому вводу. (QWERTY/ЙЦУКЕН)
+		<!-- В моем случае даже слишком, я так и не научился уверенно печатать по английски и практически не умел печатать по русски. Считаю, что QWERTY/ЙЦУКЕН так прочно занимают свое место в том числе потому что являются монополистами, а вложенные усилия на обучения печати на ней слишком высоки, что играет на руку. -->
+	</section>
 
-		Сильное смешение по частоте использования со стороны левой руки (QWERTY)
+	<section class="slide">
+		Расположение часто используемых символов вне основоного ряда
+	</section>
 
-		Распределение наиболее часто повторяюшихся символов за пределами основоного ряда (из гласных только A) (QWERTY)
+	<section class="slide">
+		Несбалансированная частота использования со стороны одной из рук. У QWERTY сильный перекос в левую сторону
+	</section>
 
-		Ряды расположены не строго друг над другом, а по диагонали, что повышает необходимость в горизонтальном перемешении печатаюшего пальца (исправлено лишь на клавиатурах некоторых производителей (Kinesis) (QWERTY/ЙЦУКЕН)
+	<section class="slide">
+		Распределение наиболее часто повторяюшихся символов за пределами основоного ряда
+	</section>
+
+	<section class="slide">
+		Ряды расположены не строго друг над другом, а по диагонали, что прибавляет необходимость в горизонтальном перемешении печатаюшего пальца (исправлено лишь на клавиатурах некоторых производителей (Kinesis/Maltron)
 	</section>
 
 	<section class="slide">
 			<h3>Разные клавиши для пунктуации у RU/EN.</h3>
-			<p>
-				Шутка пор ?, :, ", мнемоника Б это ',' а Ю это '.'. 
-				
-				<!-- Машинопись вместе с инверсией регистра на 4ом ряду частично решает эту проблему для ЙЦУКЕН -->
-			</p>
+			<!-- Шутка пор ?, :, ", мнемоника Б это ',' а Ю это '.'. Машинопись вместе с инверсией регистра на 4ом ряду частично решает эту проблему для ЙЦУКЕН -->
 	</section>
 
 	<section class="slide">
@@ -137,10 +156,6 @@
 
 	<section class="slide">
 		Потребонсть в дополнительном ПО вроде Punto Switcher для комфортности печати.
-	</section>
-
-	<section class="slide">
-
 	</section>
 
 	<section class="slide">
@@ -164,37 +179,24 @@
 		<h2>Исследования</h2>
 
 		<p>
-			rigorous studies are inconclusive as to whether they actually offer any real benefits,[57] and some studies on keyboard layout have suggested that, for a skilled typist, layout is largely irrelevant – even randomized and alphabetical keyboards allow for similar typing speeds to QWERTY and Dvorak keyboards, and that switching costs always outweigh the benefits of further training on whichever keyboard you already use.
+			Тщательные исследования неубедительны в отношении того, действительно ли они предлагают какие-либо реальные выгоды, а некоторые исследования раскладок допускают, что для опытного наборшика текста раскладка не имеет значения. Часто затраты на смену раскладки перевешивают преимущества дальнейшего использования нынешней раскладки. Примеры: Michael Capewell's Keyboard Evolve, Keyboard Layout Analyzer, 
 		</p>
+
 		<p>
-			Keyboard layout studies on the web always assume the common PC keyboard's physical key layout.
-
-			It's easy to write a computer program to compute the various frequencies and distances of the PC keyboard's keys. It is also easy to create a keyboard layout. But it is difficult to invent a different physical key layout that fixes some serious PC keyboard problems. Thus, all online layout studies simply focus on shuffling of the keys of the IBM PC Keyboard shape.</p>
-		<ul>
-			<li>
-				Patrick Gillespie wrote a web app at http://patorjk.com/keyboard-layout-analyzer/. The app is very simple and visual oriented. It takes a input text, and computes simple distances and finger frequency among 5 layouts: {QWERTY, Dvorak, Colemak, Capewell, Arensito}. Plus, it also generates a new layout that is optimal for the input text you used.
-
-				MAJOR FLAW: The site only compare simple measures such as distances, row positions, and finger ease. It does not take consideration of ease of bigram, hand alternation, etc. (For example, try to type “mommy you ok” in QWERTY.)
-			</li>
-			<li>
-				Michael Capewell's Keyboard Evolve
-				Michael Capewell, author of the Capewell layout, wrote a software Keyboard Evolve, that uses evolutionary algorithms to arrive at a optimal layout. http://www.michaelcapewell.com/programming/keyboardevolve.htm. Here's a quote:
-				
-				Unfortunately, I have yet to find the holy grail of keyboard layout evolution parameters! Things are complicated by there being a fundamental difference in how curved, ergonomic keyboards and plain, rectangular keyboards are used — the way I see things, they have different home “rows.” This program works best for ergonomic keyboards. I'm in the process of finding the right balance between the two…
-				
-				The moral here is:
-				
-				What keyboard you use has more impact to hand health than layout.
-			</li>
-			<li>
-				carPalx, at http://mkweb.bcgsc.ca/carpalx/ , is a site dedicated to studying efficiency of keyboard layouts. The site is created by Martin Krzywinski, a bioinformatics scientist.carPalx is the most thorough study on keyboard layout efficiency and quite technical.
-			</li>
-			<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Обзор исследований раскладок</a>
-			<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Раскладки и их карты частот + maltron layout</a>
-		</ul>
-		<p>What keyboard you use has more impact to hand health than layout.</p>
+			Мой выбор пар на подход Мартина Кшивински, ученого-биоинформатка. http://mkweb.bcgsc.ca/carpalx/
+			Его сайт, посвященный изучению эффективности раскладки клавиатуры. CarPalx - самое тщательное исследование эффективности раскладки клавиатуры.
+			
+			Не могу сказать, что ему удалось создать лучшую раскладку, но без сомнений он создал еше и худшую, ломать проше чем строить.
+		</p>
+		<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Обзор исследований раскладок</a>
+		<a href="http://xahlee.info/kbd/most_efficient_keyboard_layout.html">Раскладки и их карты частот + maltron layout</a>
+		<p>Kлавиатура, которую вы используете, оказывает большее влияние на здоровье рук, чем раскладка.</p>
 	</section>
 
+	<section class="slide">	
+		<h3>Результаты</h3>
+		http://mkweb.bcgsc.ca/carpalx/?popular_alternatives
+	</section>
 
 
 	<section class="slide">
@@ -203,7 +205,7 @@
 				<li>1936 Dvorak. В раскладке Dvorak оптимизирован набор текста для десятипальцевого слепого метода, чтобы в большинстве слов символы набирались попеременно правой и левой рукой. Это позволяет увеличить скорость набора, сократить количество ошибок и минимизировать риск возникновения травм от постоянной нагрузки.</li>
 				<li>2006 Colemak. латинская раскладка клавиатуры, предназначенная для эффективного и эргономичного набора текстов на английском языке на компьютерной клавиатуре. Немного лучше чем dvorak, при этом напоминает QWERTY</li>
 				<li>Workman</li>
-				<li>Проблемы русских раскладок (их нет)</li>
+				<li>Проблемы русских раскладок (Dictor и раскладка Зубачева, обе RIP)</li>
 				<li>Типографская раскладка</li>
 				<li>Мефодика Бирмана 
 				https://github.com/epsimatic/mefodica-birmana
@@ -213,6 +215,18 @@
 
 		<section class="slide">
 			<h2>Пример самостоятельно составленной раскладки для RU/EN ввода.</h2>
+			Английская раскладка является основой, я заимствовал полноценно оптимизированную раскладку по методу carplax — QGMLWB с незначительной совместимостью с QWERTY (клавиши ZXC и S). Инвертировал регистр четвертого ряда. Поставил переключение языка на capslock.
+			
+			Далее были сложности проб и ошибок. Принял решение, что меньшим из зол будет руская фонетическая раскладка ЯГМЛШБ. Горячие клавиши совместимы с почти любым ПО. Полный переход занял три месяца. Обучение прошло за месяц. 
+		</section>
+
+		<section class="slide">
+			<h2>Заключение</h2>
+			<p>
+				Изучение раскладок предполагает физическое устройство клавиатуры.
+	
+				Проше создать программу для вычисления различных частот и расстояний между клавишами, как и создать собственную раскладку. Труднее придумать другую клавиатуру, которая устранит серьезные проблемы печати. Таким образом, все раскладки сосредоточены на перетасовке клавиш на изначальной форме IBM PC Keyboard. Это отдельная тема и я допускаю, что об этом я раскажу в своем следуюшем докладе.
+			</p>
 		</section>
 
 	<section class="slide" id="see-more">
